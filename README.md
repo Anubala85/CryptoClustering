@@ -30,13 +30,12 @@
 **Optimize the Clusters with Principal Component Analysis**
 - Created a PCA model instance, and set n_components=3.
 - Used the PCA model to reduce the features to three principal components. Then reviewed the first five rows of the DataFrame.
-  
-<img src = "https://github.com/Anubala85/CryptoClustering/assets/158111116/02f108cf-d854-48e1-a073-18aec05d0c3e" width = "500">
-
 - Got the explained variance to determine how much information can be attributed to each principal component.
 - Answered the following question: What’s the total explained variance of the three principal components?
 **The Total explained variance of the three principal components is 0.895 or 89.5%**
 - Created a new DataFrame with the PCA data. Set the coin_id index from the original DataFrame as the index for the new DataFrame.
+
+<img src = "https://github.com/Anubala85/CryptoClustering/assets/158111116/d9164332-3f00-4122-9bf8-132ff86057e7" width = "400">
 
 **Find the Best Value for k by Using the PCA Data**
 - Coded the elbow method algorithm, and used the PCA data to find the best value for k. Used a range from 1 to 11.
